@@ -1,0 +1,32 @@
+:root {
+    --bg_site: #ffffff;
+    --bg_table: #ffffff;
+    --c_border: #000000;
+    --c_th: #146d4e;
+    --c_th_text: #ffffff;
+    --c_text: #000000;
+}
+body {
+    background-color: var(--bg_site);
+}
+table{
+    margin: auto;
+    width: 600px;
+    height: 400px;
+    border-spacing: 0px;
+    background-color: var(--bg_table);
+}
+table,th,td {
+    border: 1px solid var(--c_border);
+    }
+td, th{
+    width: 130px;
+    height: 30px;
+}
+#td01 {
+    background-color: var(--c_th);
+    color: var(--c_th_text);
+}
+#td02 {
+        color: var(--c_text);
+    }
